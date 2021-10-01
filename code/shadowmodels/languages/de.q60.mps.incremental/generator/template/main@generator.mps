@@ -1545,6 +1545,17 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="5o8TfKOIKsj" role="jymVt">
+      <property role="TrG5h" value="cachedHashCode" />
+      <node concept="3Tm6S6" id="5o8TfKOIKsk" role="1B3o_S" />
+      <node concept="10Oyi0" id="5o8TfKOIN0_" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="5o8TfKOIPNN" role="jymVt">
+      <property role="TrG5h" value="hashCodeInitialized" />
+      <node concept="3Tm6S6" id="5o8TfKOIPNO" role="1B3o_S" />
+      <node concept="10P_77" id="5o8TfKOIQL7" role="1tU5fm" />
+      <node concept="3clFbT" id="5o8TfKOIRfo" role="33vP2m" />
+    </node>
     <node concept="3clFbW" id="3rlBTn$7s$G" role="jymVt">
       <node concept="37vLTG" id="3rlBTn$7s$H" role="3clF46">
         <property role="TrG5h" value="k0" />
@@ -1754,10 +1765,54 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="3rlBTn$7sAg" role="jymVt">
+    <node concept="3clFb_" id="5o8TfKOIxzr" role="jymVt">
       <property role="TrG5h" value="hashCode" />
+      <node concept="10Oyi0" id="5o8TfKOI_bM" role="3clF45" />
+      <node concept="3Tm1VV" id="5o8TfKOIxzu" role="1B3o_S" />
+      <node concept="3clFbS" id="5o8TfKOIxzv" role="3clF47">
+        <node concept="3clFbJ" id="5o8TfKOIRkD" role="3cqZAp">
+          <node concept="3fqX7Q" id="5o8TfKOIRrA" role="3clFbw">
+            <node concept="37vLTw" id="5o8TfKOIRrC" role="3fr31v">
+              <ref role="3cqZAo" node="5o8TfKOIPNN" resolve="hashCodeInitialized" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="5o8TfKOIRkF" role="3clFbx">
+            <node concept="3clFbF" id="5o8TfKOIRyb" role="3cqZAp">
+              <node concept="37vLTI" id="5o8TfKOISjy" role="3clFbG">
+                <node concept="1rXfSq" id="5o8TfKOISt0" role="37vLTx">
+                  <ref role="37wK5l" node="3rlBTn$7sAg" resolve="computeHashCode" />
+                </node>
+                <node concept="37vLTw" id="5o8TfKOIRya" role="37vLTJ">
+                  <ref role="3cqZAo" node="5o8TfKOIKsj" resolve="cachedHashCode" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5o8TfKOJ1go" role="3cqZAp">
+              <node concept="37vLTI" id="5o8TfKOJ1CY" role="3clFbG">
+                <node concept="3clFbT" id="5o8TfKOJ1Eh" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="5o8TfKOJ1gm" role="37vLTJ">
+                  <ref role="3cqZAo" node="5o8TfKOIPNN" resolve="hashCodeInitialized" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5o8TfKOIS$y" role="3cqZAp">
+          <node concept="37vLTw" id="5o8TfKOISAG" role="3cqZAk">
+            <ref role="3cqZAo" node="5o8TfKOIKsj" resolve="cachedHashCode" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5o8TfKOIBKs" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="3rlBTn$7sAg" role="jymVt">
+      <property role="TrG5h" value="computeHashCode" />
       <node concept="10Oyi0" id="3rlBTn$7sAh" role="3clF45" />
-      <node concept="3Tm1VV" id="3rlBTn$7sAi" role="1B3o_S" />
+      <node concept="3Tm6S6" id="5o8TfKOIGYl" role="1B3o_S" />
       <node concept="3clFbS" id="3rlBTn$7sAj" role="3clF47">
         <node concept="3cpWs8" id="3rlBTn$7sAk" role="3cqZAp">
           <node concept="3cpWsn" id="3rlBTn$7sAl" role="3cpWs9">
@@ -1811,9 +1866,6 @@
             <ref role="3cqZAo" node="3rlBTn$7sAl" resolve="result" />
           </node>
         </node>
-      </node>
-      <node concept="2AHcQZ" id="3rlBTn$7sAE" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3clFb_" id="3rlBTn$7sAF" role="jymVt">
